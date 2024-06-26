@@ -1,0 +1,36 @@
+.pageNumberContainer {
+    height: auto;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+#root {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.pageNumberClassActive {
+    background-color: rgba(0, 255, 0, 0.15);
+    color: green;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.pageNumberClass {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
